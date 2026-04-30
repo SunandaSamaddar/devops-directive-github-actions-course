@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1777380663703,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1777529865372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+{\n+  \"workbench.sideBar.location\": \"left\",\n+  \"editor.formatOnSave\": true,\n+  \"github-actions.workflows.pinned.workflows\": [],\n+  \"files.associations\": {\n+    \"**/.github/workflows/*.{yml,yaml}\": \"yaml\",\n+    \"**/Taskfile.{yml,yaml}\": \"yaml\"\n+  },\n+  \"editor.tabSize\": 2,\n+  \"extensions.ignoreRecommendations\": true\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1777533733645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,5 @@\n {\n-  \"workbench.sideBar.location\": \"left\",\n-  \"editor.formatOnSave\": true,\n-  \"github-actions.workflows.pinned.workflows\": [],\n-  \"files.associations\": {\n-    \"**/.github/workflows/*.{yml,yaml}\": \"yaml\",\n-    \"**/Taskfile.{yml,yaml}\": \"yaml\"\n-  },\n-  \"editor.tabSize\": 2,\n-  \"extensions.ignoreRecommendations\": true\n-}\n-{\n   \"workbench.sideBar.location\": \"right\",\n   \"editor.formatOnSave\": true,\n   \"github-actions.workflows.pinned.workflows\": [],\n   \"files.associations\": {\n"
                 }
             ],
             "date": 1777380663703,
